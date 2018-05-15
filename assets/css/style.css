@@ -54,3 +54,6 @@ li a {
 li + li {
     border-left: 1px solid #cccccc;
 }
+.clearfix {
+    overflow:auto;
+}
