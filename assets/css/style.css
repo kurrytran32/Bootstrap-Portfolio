@@ -64,7 +64,7 @@ li + li {
 
 
 .footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     background-color: #666666;
@@ -81,22 +81,50 @@ li + li {
 }
 
 .airImg {
-    width: 200px;
+    width: 100%;
+    max-width: 286px;
     height: 200px;
-    z-index: 1;
+    position: relative;
     margin: 10px;
     margin-left: 0px;
+    padding:0;
 }
-.ovrLay{
-    background-color:#4aaaa5;
+/**.ovrLay{
+   background-color:#4aaaa5;
     color: white;
     text-align: center;
     font-family: 'Georgia', 'Times New Roman', Times, serif;
     position: absolute;
-    z-index: 2;
+    border-bottom: 0px;
+    width:100%;
     padding: 0;
     width:200px;
     height: 50px;
     left: 58px;
     bottom: 0px;
 }
+**/
+
+.col-sm-4 h3 {
+  position: absolute;  
+  bottom: 20px;
+  max-width:286px;
+  width: 100%;
+  padding:15px;
+  /* padding-top: 15px; */
+  /* padding-bottom: 15px; */
+  margin-bottom: 0;
+  /* margin-left: 30px; */
+  /* margin-right: 30px; */
+  font-weight: 300;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+  background: #4aaaa5;
+  border-bottom: 0;
+  font-size: 20px;
+  /* margin: 10px; */
+  right: 15px;
+
+}
+
